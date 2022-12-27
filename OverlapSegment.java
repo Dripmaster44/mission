@@ -2,9 +2,6 @@ import java.util.*;
 
 public class OverlapSegment {
 
-    public static void main(String[] args) {
-
-    }
     public int solution(int[][] lines){
         int answer = 0;
         // 교집합 시 값이 변하므로 lines[0][0~1]의 값을 두번 담기위해 네개 생성
